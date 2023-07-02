@@ -38,7 +38,6 @@ newElement.style.backgroundColor = "violet";
 //querySelectorAll : gives nodelist
 
 
-
 // to create a button
 const button = document.createElement("button");
 button.innerText = "CLICK";
@@ -47,7 +46,7 @@ document.body.appendChild(button);
 
 // to listen for the click event on a button
 button.addEventListener("click", handleClick);
-button .addEventListener("mouseover", handleClick);
+button.addEventListener("mouseover", handleClick);
 
 function handleClick(){
     // To select multiple elements
